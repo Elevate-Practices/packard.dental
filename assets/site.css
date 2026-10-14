@@ -147,12 +147,11 @@ svg{width:1.1em;height:1.1em;fill:currentColor;flex:none}
 .offer{background:var(--ink);color:#E9E5DC;border-radius:var(--r);padding:34px;position:relative;box-shadow:var(--shadow)}
 .offer::before{content:"";position:absolute;inset:10px;border:1px solid rgba(210,169,79,.45);border-radius:4px;pointer-events:none}
 .offer h2,.offer h3{color:#fff;font-size:1.5rem;margin-bottom:.15em}
-.offer .price{font:700 3.2rem/1 Montserrat,Arial,sans-serif;color:var(--gold)}
-.offer .value{color:#CFCAC0;font-weight:600}
-.offer .value s{color:var(--gold)}
+.offer p{color:#CFCAC0}
 .offer .ticks li{color:#E9E5DC}
 .offer .btn{width:100%;justify-content:center;position:relative}
 .offer .fine{color:#A9A398}
+.offer .fine a{color:var(--gold)}
 
 /* services */
 .svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
