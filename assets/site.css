@@ -461,3 +461,7 @@ h1{font-size:clamp(2.05rem,4.4vw,3.4rem)}
 .nav .mega .btn,.nav .mega .btn:hover{display:inline-flex;justify-content:center;color:var(--ink);opacity:1;font-size:.92rem;min-height:40px;padding:9px 18px;border:0}   /* .nav a rules would otherwise restyle the gold button */
 .nav .mega-link,.nav .mega-link:hover{display:inline-flex;align-items:center;gap:.35em;color:var(--gold-text);font-weight:600;font-size:.92rem;border:0;padding:0}
 .nav .mega-link svg{width:16px;height:16px}
+
+/* hover pill on mega-menu links, Gunnell-style (Chris, Oct 19 2026) */
+.nav .mega-col>a:not(.btn):not(.mega-link){padding:7px 10px;margin-inline:-10px;border-radius:8px;transition:background .15s,color .15s}
+.nav .mega-col>a:not(.btn):not(.mega-link):hover,.nav .mega-col>a:not(.btn):not(.mega-link)[aria-current]{background:var(--tint);color:var(--gold-text);text-decoration:none;opacity:1}
